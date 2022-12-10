@@ -1,0 +1,56 @@
+.bg {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+  padding: 40px;
+  min-height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.title {
+  color: #2cc6c6;
+  font-family: 'Roboto';
+  font-size: 28px;
+}
+
+.vaccination-name {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #cbd5e1;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  width: 40%;
+  align-self: center;
+  justify-content: center;
+}
+
+.failure-msg {
+  font-family: 'Bree Serif';
+  color: #fff;
+  font-size: 24px;
+}
